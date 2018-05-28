@@ -1,58 +1,32 @@
 ﻿Using Light Up Acrylic Board
 ====
 
-Light Up Acrylic Boardの使用方法について記載しています。
+アクリルライトアップ基板の使用方法について記載しています。
 
 ## Description
-本スケッチは、以下のEEP(EnOcean Equipment Profiles)に対応しています。
 
-* F6-02-04
-* D5-00-01
-* A5-02-05
-* A5-02-30
-* A5-07-01
-* A5-09-04
-
-## Demo
-
-EnOcean Shield (TCM410J)で受信した無線データ(センサー情報)を、[ThingScale](https://thingscale.io/)へグラフ表示します
-
-![TemperatureDemo](images/TemperatureDemo.png "TemperatureDemo")<br>
-![OccupancyDemo](images/OccupancyDemo.png "OccupancyDemo")
+（準備中）
 
 ## Requirement
 
-* お手軽IoT開発キット(Arduino Uno R3 + DolphinV4(GWC) Shield + Ethernet Shield 2)を用意してください
-* Arduino IDE 1.7.2以降のバージョンを使用してください
-* [EnOcean Library for Arduino](https://github.com/simics-co/EnOcean)をインストールしてください
-* [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient)をインストールしてください<br>
-  ※インストール手順は、「[EnOcean Library for Arduino](https://github.com/simics-co/EnOcean)」のREADME.md：Install 1～4を参考にしてください
+* 部品A（準備中）
+* 部品B（準備中）
+* 部品C（準備中）
 
 ## Usage
 
-1. 「EasyIoT-ethernet-thingscale.ino」を実行します
-2. スケッチ内の以下の項目を変更します<br>
-　![ChangeItems](images/ChangeItems.png "ChangeItems")
-   * ① お手持ちのセンサーのIDに書き換えます
-   * ② Ethernet Shield 2のMACアドレスに書き換えます
-   * ③ 接続するルーターのIPアドレスが固定の場合は、そのIPアドレスに書き換えます（通常、変更する必要はありません）
-   * ④ ThingScaleのUsername(ID)に書き換えます
-   * ⑤ ThingScaleのManagement Console -> Admin Profile内にある「Device Token」に書き換えます
-
-※スケッチをマイコンボードに書き込むときは、EnOcean ShieldのSW3を「Prog」側にしてください。通常はSW3を「Normal」側にしてください。
+1. ATTiny13Aにファームウェアを書き込みます  
+   * （準備中）
+2. 各部品をはんだ付けします  
+   * （準備中）
+3. アクリル板に取り付けます  
+   * （準備中）
 
 ## Install
 
-1. [GitHub repository](https://github.com/simics-co/EasyIoT-ethernet-thingscale)から[EasyIoT-ethernet-thingscale-master.zip](https://github.com/simics-co/EasyIoT-ethernet-thingscale/archive/master.zip)をダウンロードします
-2. 圧縮ファイルを展開し、フォルダ名を「EasyIoT-ethernet-thingscale」へ変更します
-
-## Contribution
-
-1. Forkする ( https://github.com/simics-co/EnOcean#fork-destination-box )
-2. ローカル上でbranchを作る (git checkout -b my-new-feature)
-3. 変更した内容をcommitする (git commit -am 'Add some feature')
-4. pushする (git push origin my-new-feature)
-5. Pull Requestを作成する
+1. [Attiny13のスケッチ](https://github.com/bigw00d/LightUpAcrylicBoard/blob/master/Attiny13_pattern.pdf)をダウンロードします
+2. 圧縮ファイルを展開し、フォルダ名を「LightUpAcrylicBoard」へ変更します
+3. （準備中）
 
 ## Licence
 

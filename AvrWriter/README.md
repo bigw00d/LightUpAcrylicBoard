@@ -1,7 +1,7 @@
 ﻿Using Avr Writer
 ====
 
-Avr Writerのセットアップ＆使用方法について記載しています。
+AVRマイコン(ATTiny13A, ATTiny85など)書き込み装置のセットアップ＆使用方法について記載しています。
 
 ## Description
 
