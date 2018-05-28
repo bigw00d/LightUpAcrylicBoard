@@ -5,34 +5,33 @@ AVRマイコン(ATTiny13A, ATTiny85など)書き込み装置のセットアッ�
 
 ## Description
 
-Avr Writerは以下のような機能を持っています
+Avr Writer（書き込み装置）は以下のような機能を持っています
 
-Digisparkと同等の回路を保持
-- USBシリアルなしでATTiny85にプログラミングできます
+- Digisparkと同等の回路を保持
+    - USBシリアルなしでATTiny85にプログラミングできます
 
-各種電圧を取り扱い可能
-- レギュレータを使えます
-- USB電源をそのまま使えます
+- 各種電圧を取り扱い可能
+    - 各種レギュレータを使えます
+    - USB電源をそのまま使うこともできます
 
-WROOM02との親和性
-- WROOM02の[ピッチ変換済みモジュール](https://www.switch-science.com/catalog/2347/)に対応しています
-- [EsprDeveloper](https://www.switch-science.com/catalog/2500/)に対応しています
-- Attiny85をUSBシリアル化できればWROOM02の書き込みもこの基板で可能です
+- WROOM02との高い親和性
+    - WROOM02の[ピッチ変換済みモジュール](https://www.switch-science.com/catalog/2347/)用のピン穴があります
+    - [EsprDeveloper](https://www.switch-science.com/catalog/2500/)用のピン穴があります
+    - Attiny85をUSBシリアル化できればWROOM02の書き込みもこの基板で可能です
 
-FRISKケース台の基板サイズ
-- ただし、レギュレータを使用する際ははみ出る気がします
+- FRISKケース台の基板サイズ
+    - ただし、レギュレータを使用する際ははみ出る気がします
 
 ## Demo
 
-LED(PROG_LED)を点滅させるデモがあります → ATTin85_LED_BLINK
+LED(PROG_LED)を点滅させるデモがあります → ATTin85_LED_BLINK（準備中）
 
 ## Requirement
 
 * USBシリアル
 * Windows PC
 * AvrWriter基板
-* [Arduino Client for MQTT](https://github.com/knolleary/pubsubclient)をインストールしてください<br>
-  ※インストール手順は、「[EnOcean Library for Arduino](https://github.com/simics-co/EnOcean)」のREADME.md：Install 1～4を参考にしてください
+* 各種電子部品（準備中）
 
 ## Usage
 
