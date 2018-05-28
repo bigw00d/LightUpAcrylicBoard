@@ -9,9 +9,17 @@
 
 ## Requirement
 
-* 部品A（準備中）
-* 部品B（準備中）
-* 部品C（準備中）
+* ATTiny13A x1
+* 丸ピンICソケット（8pin） x1
+* セラミックコンデンサ（0.1uF） x1
+* 抵抗 1/4Ｗ　4.7ｋΩ x1
+* LED x6
+* LED用の抵抗 x3
+* MOSFET 2N7000 x3
+* 電池ボックス（単３x２本）x1
+* ピンヘッダ（2x3）x1 
+* AVRマイコンICSP用6Pケーブル x1
+* Arduino micro x1 ※Arduino UNOでも可（ただし、ジャンパワイヤ(オス～メス)が６本必要）
 
 ## Usage
 
