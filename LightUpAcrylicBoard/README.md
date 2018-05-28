@@ -1,4 +1,4 @@
-﻿Using Light Up Acrylic Board
+﻿Making Light Up Acrylic Board
 ====
 
 アクリルライトアップ基板を作る方法を記載しています。

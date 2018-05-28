@@ -1,4 +1,4 @@
-﻿Using Avr Writer
+﻿Making Avr Writer
 ====
 
 AVRマイコン(ATTiny13A, ATTiny85など)書き込み装置を作る方法を記載しています。
