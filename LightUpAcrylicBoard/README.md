@@ -1,7 +1,7 @@
 ﻿Using Light Up Acrylic Board
 ====
 
-アクリルライトアップ基板作り方を記載しています。
+アクリルライトアップ基板を作る方法を記載しています。
 
 ## Description
 

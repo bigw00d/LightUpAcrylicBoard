@@ -2,7 +2,7 @@
 <img align="right" src="./LightUpAcrylicBoard_logo.png" />
 
 アクリルをLEDでライトアップする装置を作るための情報を掲載しています。   
-（※専用に回路を起こしたプリント基板を使用しています）
+※専用に回路を起こしたプリント基板を使用しています
 
 ## Topics
 

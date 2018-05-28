@@ -1,11 +1,11 @@
 ﻿Using Avr Writer
 ====
 
-AVRマイコン(ATTiny13A, ATTiny85など)書き込み装置のセットアップ＆使用方法について記載しています。
+AVRマイコン(ATTiny13A, ATTiny85など)書き込み装置を作る方法を記載しています。
 
 ## Description
 
-Avr Writer（書き込み装置）は以下のような機能を持っています
+ここで作成するAvrWriter（AVRマイコン書き込み装置）は以下のような機能を持っています
 
 - Digisparkと同等の回路を保持
     - USBシリアルなしでATTiny85にプログラミングできます
@@ -22,10 +22,6 @@ Avr Writer（書き込み装置）は以下のような機能を持っていま�
 - FRISKケース台の基板サイズ
     - ただし、レギュレータを使用する際ははみ出る気がします
 
-## Demo
-
-LED(PROG_LED)を点滅させるデモがあります → ATTin85_LED_BLINK（準備中）
-
 ## Requirement
 
 * USBシリアル
@@ -37,12 +33,16 @@ LED(PROG_LED)を点滅させるデモがあります → ATTin85_LED_BLINK（準
 
 1. USBシリアルなどのAVRを使ってattiny85に[micronucleus](https://github.com/micronucleus/micronucleus)を焼きます
 ※MACでやっている。Windowsでも同じようにすればいい？
-2. Digisparkと同じようにスケッチを焼きます<br>
+2. 以下のどちらかの方法でスケッチを焼きます（Digisparkと同じように）<br>
 2-1. [platformio](http://qiita.com/erukiti/items/74a848489ec102841b66)でスケッチを焼きます<br>
 2-2. Digisparkと同じように[Arduino](https://qiita.com/mt08/items/df4ed8c659b205d1fa1e)でスケッチを焼きます<br>
 
-※[参考サイト](https://qiita.com/erukiti/items/0a51d959082e242e2e2)
-※[参考URL（Digispark&Arduino）](https://qiita.com/mt08/items/df4ed8c659b205d1fa1e)
+※[参考サイト](https://qiita.com/erukiti/items/0a51d959082e242e2e2)  
+※[参考URL（Digispark&Arduino）](https://qiita.com/mt08/items/df4ed8c659b205d1fa1e)  
+
+## Demo
+
+LED(PROG_LED)を点滅させるデモがあります → ATTin85_LED_BLINK（準備中）
 
 ## Licence
 
