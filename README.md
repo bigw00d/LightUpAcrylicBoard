@@ -1,7 +1,14 @@
 # LIGHT UP ACRYLIC BOARD 
 <img align="right" src="./LightUpAcrylicBoard_logo.png" />
 
-アクリルをLEDでライトアップするための基板情報を掲載しています。 
+アクリルをLEDでライトアップするための基板に関する情報を掲載しています。 
+
+## Topics
+
+* [プログラミング環境を構築する](https://github.com/bigw00d/LightUpAcrylicBoard/tree/master/AvrWriter)
+* [ライトアップ基板を作る](https://github.com/bigw00d/LightUpAcrylicBoard/tree/master/LightUpAcrylicBoard)
+* [回路図](https://github.com/bigw00d/LightUpAcrylicBoard/blob/master/Attiny13_schematic.pdf)
+* [パターン図](https://github.com/bigw00d/LightUpAcrylicBoard/blob/master/Attiny13_pattern.pdf)
 
 ## Licence
 
