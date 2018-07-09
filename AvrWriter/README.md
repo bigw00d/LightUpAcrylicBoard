@@ -147,7 +147,7 @@ void loop() {
 以上  
   
 　   　
-※参考サイト：
+※参考サイト：  
 [参考サイト：ArduinoでHEXファイルを書き込む](http://blog.livedoor.jp/hymne333/archives/4710525.html)
 [FT232RLでAVRライターを自作してATtiny85をDigispark互換にするまで](https://qiita.com/erukiti/items/0a51d959082e242e2e2a)  
 [[メモ] Digispark(ATTiny85) Arduino開発環境で、Lチカ](https://qiita.com/mt08/items/df4ed8c659b205d1fa1e)  
